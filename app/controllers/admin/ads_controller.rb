@@ -1,4 +1,5 @@
-module Admin
+module admin
+
   class AdsController < BaseController
     DISALLOWED_INCLUDES = %w[youtube google].freeze
     DISALLOWED_KEYWORDS = (%w[hack crack 破解] + DISALLOWED_INCLUDES).freeze
